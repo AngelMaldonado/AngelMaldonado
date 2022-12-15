@@ -29,7 +29,7 @@ Otras de mis habilidades son: buen trabajo en equipo, habilidades de liderazgo, 
 
 - 📫 Correo: amaldonadojuarez@gmail.com
 
-- 👨‍💼 Linkedin: <a href="linkedin.com/in/angelmaldonadojz/">Angel Maldonado</a>
+- 👨‍💼 Linkedin: [Angel Maldonado](linkedin.com/in/angelmaldonadojz/)
 </p>
 
 <h3 align="left">Estadísticas:</h3>
