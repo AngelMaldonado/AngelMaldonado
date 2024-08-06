@@ -1,5 +1,5 @@
 <h1 style="display: flex; align-items: center; gap: 1rem;">
-<img style="display: inline;" width=70 src="giphy.gif"/>
+<img style="display: inline;" width=70 src="https://github.com/AngelMaldonado/AngelMaldonado/blob/main/assets/dancing-cat.gif"/>
 ¡𝙷𝚘𝚕𝚊! 𝚂𝚘𝚢 𝙰𝚗𝚐𝚎𝚕 𝙼𝚊𝚕𝚍𝚘𝚗𝚊𝚍𝚘
 </h1>
 
@@ -28,7 +28,7 @@
 𝙴𝚜𝚝𝚊 𝚑𝚊𝚌𝚔𝚊𝚝𝚑𝚘𝚗 𝚖𝚎 𝚙𝚎𝚛𝚖𝚒𝚝𝚒𝚘́ 𝚙𝚛𝚘𝚏𝚞𝚗𝚍𝚒𝚣𝚊𝚛 𝚎𝚗 𝚝𝚎𝚌𝚗𝚘𝚕𝚘𝚐𝚒́𝚊𝚜 𝚌𝚘𝚖𝚘 𝙽𝚎𝚡𝚝.𝚓𝚜, 𝚅𝚎𝚛𝚌𝚎𝚕, 𝙶𝚘𝚘𝚐𝚕𝚎 𝙲𝚕𝚘𝚞𝚍, 𝚢 𝚁𝚎𝚊𝚌𝚝.𝚓𝚜, 𝚕𝚊 𝚊𝚙𝚕𝚒𝚌𝚊𝚌𝚒𝚘́𝚗 𝚎𝚜𝚝𝚊 [𝚍𝚎𝚜𝚙𝚕𝚎𝚐𝚊𝚍𝚊 𝚎𝚗 𝚅𝚎𝚛𝚌𝚎𝚕](https://analizador-ia-github.vercel.app/) 𝚢 𝚊𝚞́𝚗 𝚛𝚎𝚌𝚒𝚋𝚎 𝚌𝚘𝚗𝚜𝚝𝚊𝚗𝚝𝚎𝚜 𝚖𝚎𝚓𝚘𝚛𝚊𝚜.
 
 <a href="https://analizador-ia-github.vercel.app/">
-<img width=400 src="project-hackathon.jpeg"/>
+<img width=400 src="https://github.com/AngelMaldonado/AngelMaldonado/blob/main/assets/project-hackathon.jpeg"/>
 </a>
 
 ### 𝚄𝙰𝚂𝙻𝙿: 𝙰𝚐𝚎𝚗𝚍𝚊 𝙴𝚜𝚌𝚘𝚕𝚊𝚛
@@ -38,7 +38,7 @@
 𝙰𝚌𝚝𝚞𝚊𝚕𝚖𝚎𝚗𝚝𝚎 𝚢𝚊 𝚜𝚎 𝚎𝚗𝚌𝚞𝚎𝚗𝚝𝚛𝚊 𝚍𝚎𝚜𝚙𝚕𝚎𝚐𝚊𝚍𝚘 𝚌𝚘𝚖𝚘 𝚞𝚗 [𝚜𝚎𝚛𝚟𝚒𝚌𝚒𝚘 𝚘𝚏𝚒𝚌𝚒𝚊𝚕 𝚍𝚎 𝚕𝚊 𝚏𝚊𝚌𝚞𝚕𝚝𝚊𝚍](https://servicios.ing.uaslp.mx/agenda-escolar/) 𝚢 𝚢𝚊 𝚎𝚜 𝚍𝚎 𝚐𝚛𝚊𝚗 𝚊𝚢𝚞𝚍𝚊 𝚙𝚊𝚛𝚊 𝚕𝚊 𝚌𝚘𝚖𝚞𝚗𝚒𝚍𝚊𝚍 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚝𝚒𝚟𝚊 𝚢 𝚎𝚜𝚝𝚞𝚍𝚒𝚊𝚗𝚝𝚒𝚕.
 
 <a href="https://servicios.ing.uaslp.mx/agenda-escolar/">
-<img width=400 src="project-agenda-escolar.jpeg"/>
+<img width=400 src="https://github.com/AngelMaldonado/AngelMaldonado/blob/main/assets/project-agenda-escolar.jpeg"/>
 </a>
 
 ### 𝙰𝚙𝚙: 𝚃𝙴𝙰 (𝚃𝚛𝚊𝚗𝚜𝚝𝚘𝚛𝚗𝚘 𝚍𝚎𝚕 𝙴𝚜𝚙𝚎𝚌𝚝𝚛𝚘 𝙰𝚞𝚝𝚒𝚜𝚝𝚊)
@@ -48,11 +48,11 @@
 𝙻𝚊 𝚊𝚙𝚕𝚒𝚌𝚊𝚌𝚒𝚘́𝚗 𝚢𝚊 𝚜𝚎 𝚎𝚗𝚌𝚞𝚎𝚗𝚝𝚛𝚊 [𝚍𝚒𝚜𝚙𝚘𝚗𝚒𝚋𝚕𝚎 𝚎𝚗 𝚕𝚊 𝙿𝚕𝚊𝚢𝚂𝚝𝚘𝚛𝚎](https://play.google.com/store/apps/details?id=com.slp.tea)
 
 <a href="https://play.google.com/store/apps/details?id=com.slp.tea">
-<img width=400 src="project-tea.jpeg"/>
+<img width=400 src="https://github.com/AngelMaldonado/AngelMaldonado/blob/main/assets/project-tea.jpeg"/>
 </a>
 
 ## 📊 𝙴𝚜𝚝𝚊𝚍í𝚜𝚝𝚒𝚌𝚊𝚜
 
 [![Racha de Github](https://github-readme-streak-stats.herokuapp.com?user=AngelMaldonado&theme=dark&locale=es)](https://git.io/streak-stats)
 
-<img width=495  src="https://github-readme-stats.vercel.app/api?username=angelmaldonado&show_icons=true&theme=dark&icon_color=FB8C00&ring_color=FB8C00&text_color=FFF&custom_title=Stats de Angel&locale=es" alt="angelmaldonado" />
+<img width=495  src="https://github-readme-stats.vercel.app/api?username=angelmaldonado&show_icons=true&theme=dark&icon_color=FB8C00&ring_color=FB8C00&text_color=FFF&custom_title=Stats+de+Angel&locale=es" alt="angelmaldonado" />
