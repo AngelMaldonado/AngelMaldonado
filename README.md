@@ -1,4 +1,4 @@
-<h1 style="display: flex; gap: 1rem; align-items: center;">
+<h1 class="d-flex">
 <img src="./assets/dancing-cat.gif"/>
 ¡𝙷𝚘𝚕𝚊! 𝚂𝚘𝚢 𝙰𝚗𝚐𝚎𝚕 𝙼𝚊𝚕𝚍𝚘𝚗𝚊𝚍𝚘
 </h1>
