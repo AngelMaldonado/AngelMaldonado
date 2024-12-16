@@ -44,7 +44,9 @@
 
 ### 𝚄𝙰𝚂𝙻𝙿: 𝙰𝚐𝚎𝚗𝚍𝚊 𝙴𝚜𝚌𝚘𝚕𝚊𝚛
 
-<img align="right" width="300" src="./assets/agenda-escolar.gif"/>
+<a href="https://servicios.ing.uaslp.mx/agenda-escolar/">
+    <img align="right" width="300" src="./assets/agenda-escolar.gif"/>
+</a>
 
 𝙴𝚜𝚝𝚎 𝚎𝚜 𝚞𝚗 𝚜𝚒𝚜𝚝𝚎𝚖𝚊 𝚍𝚎 𝚌𝚊𝚕𝚎𝚗𝚍𝚊𝚛𝚒𝚘 𝚢 𝚊𝚐𝚎𝚗𝚍𝚊 𝚙𝚊𝚛𝚊 𝚐𝚎𝚜𝚝𝚒𝚘𝚗𝚊𝚛 𝚕𝚘𝚜 𝚎𝚟𝚎𝚗𝚝𝚘𝚜 𝚍𝚎 𝚕𝚊 𝚏𝚊𝚌𝚞𝚕𝚝𝚊𝚍 𝚍𝚎 𝚒𝚗𝚐𝚎𝚗𝚒𝚎𝚛í𝚊 𝚍𝚎 𝚖𝚒 𝚞𝚗𝚒𝚟𝚎𝚛𝚜𝚒𝚍𝚊𝚍, 𝚜𝚎 𝚛𝚎𝚊𝚕𝚒𝚣𝚘́ 𝚌𝚘𝚖𝚘 𝚙𝚊𝚛𝚝𝚎 𝚍𝚎 𝚕𝚊𝚜 𝚖𝚊𝚝𝚎𝚛𝚒𝚊𝚜 𝚍𝚎 𝙿𝚛𝚘𝚢𝚎𝚌𝚝𝚘𝚜 𝙲𝚘𝚖𝚙𝚞𝚝𝚊𝚌𝚒𝚘𝚗𝚊𝚕𝚎𝚜 𝚜𝚒𝚐𝚞𝚒𝚎𝚗𝚍𝚘 𝚞𝚗 𝚙𝚛𝚘𝚌𝚎𝚜𝚘 𝚍𝚎 𝚍𝚎𝚜𝚊𝚛𝚛𝚘𝚕𝚕𝚘 𝚂𝙲𝚁𝚄𝙼.
 
@@ -55,8 +57,6 @@
 𝙴𝚗 𝚌𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚌𝚒𝚘́𝚗 𝚌𝚘𝚗 𝚊𝚕𝚐𝚞𝚗𝚘𝚜 𝚍𝚘𝚌𝚝𝚘𝚛𝚎𝚜 𝚎𝚜𝚙𝚎𝚌𝚒𝚊𝚕𝚒𝚜𝚝𝚊𝚜 𝚎𝚗 𝚖𝚒 𝚞𝚗𝚒𝚟𝚎𝚛𝚜𝚒𝚍𝚊𝚍 𝚝𝚛𝚊𝚋𝚊𝚓𝚎́ 𝚎𝚗 𝚎𝚕 𝚍𝚒𝚜𝚎𝚗̃𝚘, 𝚍𝚎𝚜𝚊𝚛𝚛𝚘𝚕𝚕𝚘, 𝚎 𝚒𝚖𝚙𝚕𝚎𝚖𝚎𝚗𝚝𝚊𝚌𝚒𝚘́𝚗 𝚍𝚎 𝚞𝚗𝚊 𝚊𝚙𝚕𝚒𝚌𝚊𝚌𝚒𝚘́𝚗 𝚖𝚘́𝚟𝚒𝚕 𝚌𝚘𝚗 𝚋𝚊𝚜𝚎 𝚍𝚎 𝚍𝚊𝚝𝚘𝚜 𝚙𝚊𝚛𝚊 𝚛𝚎𝚊𝚕𝚒𝚣𝚊𝚛 𝚞𝚗 𝚝𝚊𝚖𝚒𝚣𝚊𝚓𝚎 𝚊 𝚗𝚒𝚟𝚎𝚕 𝚗𝚊𝚌𝚒𝚘𝚗𝚊𝚕 𝚜𝚘𝚋𝚛𝚎 𝚎𝚕 𝚊𝚞𝚝𝚒𝚜𝚖𝚘 𝚎𝚗 𝚗𝚒𝚗̃𝚘𝚜 𝚌𝚘𝚗 𝚎𝚍𝚊𝚍𝚎𝚜 𝚎𝚗𝚝𝚛𝚎 𝟷𝟾 𝚊 𝟸𝟺 𝚖𝚎𝚜𝚎𝚜.
 
 𝙻𝚊 𝚊𝚙𝚕𝚒𝚌𝚊𝚌𝚒𝚘́𝚗 𝚢𝚊 𝚜𝚎 𝚎𝚗𝚌𝚞𝚎𝚗𝚝𝚛𝚊 [𝚍𝚒𝚜𝚙𝚘𝚗𝚒𝚋𝚕𝚎 𝚎𝚗 𝚕𝚊 𝙿𝚕𝚊𝚢𝚂𝚝𝚘𝚛𝚎](https://play.google.com/store/apps/details?id=com.slp.tea)
-
-[![TEA App](https://github.com/AngelMaldonado/AngelMaldonado/blob/main/assets/project-tea.jpeg)](https://play.google.com/store/apps/details?id=com.slp.tea)
 
 ## 📊 𝙴𝚜𝚝𝚊𝚍í𝚜𝚝𝚒𝚌𝚊𝚜
 
