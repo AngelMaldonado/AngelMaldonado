@@ -135,10 +135,16 @@ def compile_pdf(tex_file: str, output_dir: str = "assets/generated") -> bool:
                 timeout=30
             )
 
-            if result.returncode != 0:
+            # LaTeX returns non-zero for warnings, so check PDF existence instead
+            pdf_name = Path(tex_file).stem + '.pdf'
+            pdf_path = output_path / pdf_name
+
+            if not pdf_path.exists() and result.returncode != 0:
+                # Only fail if both: non-zero exit AND no PDF produced
                 print(f"❌ pdflatex failed on pass {run}")
                 print("Error output:")
-                print(result.stdout[-500:] if len(result.stdout) > 500 else result.stdout)
+                # Show last 1000 chars of output
+                print(result.stdout[-1000:] if len(result.stdout) > 1000 else result.stdout)
                 return False
 
         # Check if PDF was created
@@ -148,6 +154,8 @@ def compile_pdf(tex_file: str, output_dir: str = "assets/generated") -> bool:
         if pdf_path.exists():
             # Rename to cv.pdf
             final_path = output_path / 'cv.pdf'
+            if final_path.exists():
+                final_path.unlink()  # Remove old version
             pdf_path.rename(final_path)
             print(f"✅ PDF generated successfully: {final_path}")
             return True
