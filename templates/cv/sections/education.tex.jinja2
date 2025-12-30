@@ -1,0 +1,40 @@
+% Education section
+\BLOCK{if profile.education and profile.education|length > 0}
+\section*{Educación}
+
+\BLOCK{for edu in profile.education}
+\textbf{\VAR{edu.degree}} \hfill \textcolor{primaryColor}{\VAR{edu.graduationDate}} \\
+\textit{\VAR{edu.institution}}\BLOCK{if edu.location}, \VAR{edu.location}\BLOCK{endif}
+
+\BLOCK{if edu.gpa}
+\vspace{0.1cm}
+GPA: \VAR{edu.gpa}
+\BLOCK{endif}
+
+\BLOCK{if edu.honors and edu.honors|length > 0}
+\begin{itemize}[leftmargin=*, noitemsep]
+\BLOCK{for honor in edu.honors}
+    \item \VAR{honor}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\vspace{0.3cm}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+% Certifications
+\BLOCK{if profile.certifications and profile.certifications|length > 0}
+\section*{Certificaciones}
+
+\BLOCK{for cert in profile.certifications}
+\textbf{\VAR{cert.name}} \hfill \textcolor{primaryColor}{\VAR{cert.date}} \\
+\textit{\VAR{cert.issuer}}
+\BLOCK{if cert.credentialId} -- ID: \VAR{cert.credentialId}\BLOCK{endif}
+\BLOCK{if cert.url}
+\ \href{\VAR{cert.url}}{\faExternalLink}
+\BLOCK{endif}
+
+\vspace{0.2cm}
+\BLOCK{endfor}
+\BLOCK{endif}

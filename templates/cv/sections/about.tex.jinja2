@@ -1,0 +1,9 @@
+% About section
+\BLOCK{if profile.profile.about}
+\section*{Perfil Profesional}
+\begin{itemize}[leftmargin=*, noitemsep]
+\BLOCK{for item in profile.profile.about}
+    \item \VAR{item}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}

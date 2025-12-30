@@ -42,6 +42,14 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Generated files (these will be auto-committed by CI)
-# Uncomment if you don't want them in git:
-# assets/generated/
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+templates/cv/sections/*_generated.tex
+templates/cv/modern_generated.tex
+
+# Generated files
+# CV PDF is auto-committed by CI
+# Uncomment to ignore: # assets/generated/cv.pdf

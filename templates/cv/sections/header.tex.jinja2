@@ -1,0 +1,28 @@
+% Header section
+\begin{center}
+    {\Huge\bfseries \VAR{profile.profile.name}} \\[0.3cm]
+    {\Large\color{primaryColor} \VAR{profile.profile.title}} \\[0.2cm]
+    \BLOCK{if profile.profile.tagline}
+    {\large\itshape "\VAR{profile.profile.tagline}"} \\[0.3cm]
+    \BLOCK{endif}
+
+    % Contact information
+    \BLOCK{if profile.profile.contact}
+    \begin{tabular}{c}
+        \BLOCK{if profile.profile.contact.email}
+        \faEnvelope\ \href{mailto:\VAR{profile.profile.contact.email}}{\VAR{profile.profile.contact.email}} \quad
+        \BLOCK{endif}
+        \BLOCK{if profile.profile.contact.phone}
+        \faPhone\ \VAR{profile.profile.contact.phone} \quad
+        \BLOCK{endif}
+        \BLOCK{if profile.profile.contact.github}
+        \faGithub\ \href{https://github.com/\VAR{profile.profile.contact.github}}{\VAR{profile.profile.contact.github}} \quad
+        \BLOCK{endif}
+        \BLOCK{if profile.profile.contact.linkedin}
+        \faLinkedin\ \href{https://linkedin.com/in/\VAR{profile.profile.contact.linkedin}}{\VAR{profile.profile.contact.linkedin}}
+        \BLOCK{endif}
+    \end{tabular}
+    \BLOCK{endif}
+\end{center}
+
+\vspace{0.3cm}

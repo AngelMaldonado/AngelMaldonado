@@ -1,0 +1,28 @@
+% Experience section
+\BLOCK{if profile.experience and profile.experience|length > 0}
+\section*{Experiencia Profesional}
+
+\BLOCK{for exp in profile.experience}
+\textbf{\VAR{exp.position}} \hfill \textcolor{primaryColor}{\VAR{exp.startDate} -- \BLOCK{if exp.endDate == 'present'}Presente\BLOCK{else}\VAR{exp.endDate}\BLOCK{endif}} \\
+\textit{\VAR{exp.company}}\BLOCK{if exp.location}, \VAR{exp.location}\BLOCK{endif}
+
+\BLOCK{if exp.description}
+\vspace{0.1cm}
+\VAR{exp.description}
+\BLOCK{endif}
+
+\BLOCK{if exp.highlights and exp.highlights|length > 0}
+\begin{itemize}[leftmargin=*, noitemsep]
+\BLOCK{for highlight in exp.highlights}
+    \item \VAR{highlight}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\BLOCK{if exp.technologies and exp.technologies|length > 0}
+\textbf{Tecnologías:} \VAR{exp.technologies|join(', ')}
+\BLOCK{endif}
+
+\vspace{0.3cm}
+\BLOCK{endfor}
+\BLOCK{endif}

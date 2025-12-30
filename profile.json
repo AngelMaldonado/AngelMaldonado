@@ -192,8 +192,9 @@
   },
   "integrations": {
     "linkedin": {
-      "enabled": false,
-      "postOnUpdate": false
+      "enabled": true,
+      "postOnUpdate": true,
+      "postTemplate": "🎉 ¡Acabo de actualizar mi perfil profesional!\n\nVisita https://github.com/{github} para ver mis últimos proyectos y experiencia.\n\n#OpenToWork #SoftwareEngineering #AI #WebDevelopment"
     }
   }
 }

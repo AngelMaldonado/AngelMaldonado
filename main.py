@@ -7,6 +7,11 @@ Orchestrates the automation pipeline for generating README, CV, and running inte
 import sys
 from scripts.validators.schema_validator import validate_profile
 from scripts.generators.readme_generator import generate_readme
+from scripts.generators.cv_generator import generate_cv
+
+# Import integrations to auto-register them
+import scripts.integrations.linkedin  # noqa: F401
+from scripts.integrations.registry import IntegrationRegistry
 
 
 def print_usage():
@@ -16,8 +21,8 @@ def print_usage():
     print("\nCommands:")
     print("  validate           Validate profile.json against JSON Schema")
     print("  generate-readme    Generate README.md from profile.json")
-    print("  generate-cv        Generate CV PDF from profile.json (TODO)")
-    print("  run-integrations   Run platform integrations (TODO)")
+    print("  generate-cv        Generate CV PDF from profile.json")
+    print("  run-integrations   Run platform integrations (LinkedIn, etc.)")
     print("\nExample:")
     print("  uv run main.py validate")
 
@@ -35,13 +40,9 @@ def main():
     elif command == "generate-readme":
         generate_readme()
     elif command == "generate-cv":
-        print("❌ Error: generate-cv not yet implemented")
-        print("   This command will be added in Phase 4")
-        sys.exit(1)
+        generate_cv()
     elif command == "run-integrations":
-        print("❌ Error: run-integrations not yet implemented")
-        print("   This command will be added in Phase 5")
-        sys.exit(1)
+        IntegrationRegistry.run_all()
     elif command in ["-h", "--help", "help"]:
         print_usage()
     else:

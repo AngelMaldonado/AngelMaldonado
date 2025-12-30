@@ -1,0 +1,16 @@
+% Skills section
+\BLOCK{if profile.skills.categories and profile.skills.categories|length > 0}
+\section*{Habilidades Técnicas}
+
+\BLOCK{for category in profile.skills.categories}
+\textbf{\VAR{category.name}:}
+\BLOCK{set tech_names = [] }
+\BLOCK{for tech in category.technologies}
+    \BLOCK{if tech_names.append(tech.name) }
+    \BLOCK{endif}
+\BLOCK{endfor}
+\VAR{tech_names|join(', ')}
+
+\vspace{0.1cm}
+\BLOCK{endfor}
+\BLOCK{endif}

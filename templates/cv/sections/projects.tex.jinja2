@@ -1,0 +1,32 @@
+% Projects section
+\BLOCK{if profile.projects.featured and profile.projects.featured|length > 0}
+\section*{Proyectos Destacados}
+
+\BLOCK{for project in profile.projects.featured}
+\textbf{\VAR{project.title}}
+\BLOCK{if project.url} -- \href{\VAR{project.url}}{\faLink}\BLOCK{endif}
+\BLOCK{if project.repository} \href{\VAR{project.repository}}{\faGithub}\BLOCK{endif}
+
+\vspace{0.1cm}
+\BLOCK{if project.longDescription}
+\VAR{project.longDescription}
+\BLOCK{else}
+\VAR{project.description}
+\BLOCK{endif}
+
+\BLOCK{if project.technologies and project.technologies|length > 0}
+\vspace{0.1cm}
+\textbf{Tecnologías:} \VAR{project.technologies|join(', ')}
+\BLOCK{endif}
+
+\BLOCK{if project.highlights and project.highlights|length > 0}
+\begin{itemize}[leftmargin=*, noitemsep]
+\BLOCK{for highlight in project.highlights}
+    \item \VAR{highlight}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\vspace{0.3cm}
+\BLOCK{endfor}
+\BLOCK{endif}

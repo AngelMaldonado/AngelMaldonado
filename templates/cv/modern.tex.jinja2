@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+% Load colors
+\input{templates/cv/styles/colors.tex}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primaryColor,
+    urlcolor=primaryColor,
+    pdfauthor={\VAR{profile.profile.name}},
+    pdftitle={\VAR{profile.profile.name} - CV}
+}
+
+% Section formatting
+\titleformat{\section}
+    {\Large\bfseries\color{primaryColor}}
+    {}{0em}{}[\titlerule]
+
+\titlespacing{\section}{0pt}{1em}{0.5em}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+% Header
+\input{templates/cv/sections/header_generated.tex}
+
+% About
+\input{templates/cv/sections/about_generated.tex}
+
+% Experience
+\input{templates/cv/sections/experience_generated.tex}
+
+% Education
+\input{templates/cv/sections/education_generated.tex}
+
+% Skills
+\input{templates/cv/sections/skills_generated.tex}
+
+% Projects
+\input{templates/cv/sections/projects_generated.tex}
+
+\vfill
+
+\begin{center}
+\small
+\textcolor{gray}{CV generado automáticamente desde profile.json -- \today}
+\end{center}
+
+\end{document}
