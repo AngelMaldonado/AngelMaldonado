@@ -1,0 +1,9 @@
+## 📊 {{ "Estadísticas" | monospace }}
+
+{% if profile.stats.github.showStreaks %}
+[![Racha de Github](https://github-readme-streak-stats.herokuapp.com?user={{ profile.stats.github.username }}&theme={{ profile.stats.github.theme }}&locale=es)](https://git.io/streak-stats)
+{% endif %}
+
+{% if profile.stats.github.showStats %}
+![Angel's stats](https://github-readme-stats.vercel.app/api?username={{ profile.stats.github.username }}&show_icons=true&theme={{ profile.stats.github.theme }}&icon_color=FB8C00&ring_color=FB8C00&text_color=FFF&custom_title=Stats+de+Angel&locale=es)
+{% endif %}

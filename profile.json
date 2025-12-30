@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-12-29T20:00:00Z",
+    "language": "es",
+    "style": {
+      "useMonospaceFont": true,
+      "theme": "dark"
+    }
+  },
+  "profile": {
+    "name": "Angel Maldonado",
+    "title": "Ingeniero en Sistemas Inteligentes",
+    "tagline": "Siempre viendo la vida con la mejor actitud",
+    "about": [
+      "Soy Ingeniero en Sistemas Inteligentes.",
+      "Especialización en desarrollo web e inteligencia artificial.",
+      "Me apasiona ayudar y servir a las personas creando soluciones con lo que se.",
+      "Intento ser mejor cada día"
+    ],
+    "contact": {
+      "github": "AngelMaldonado"
+    },
+    "avatar": {
+      "path": "/assets/dancing-cat.gif",
+      "alt": "dancing-cat"
+    }
+  },
+  "experience": [],
+  "education": [],
+  "certifications": [],
+  "skills": {
+    "categories": [
+      {
+        "name": "Hosting",
+        "icon": "☁️",
+        "technologies": [
+          {
+            "name": "Digital Ocean",
+            "badge": {
+              "url": "https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white",
+              "alt": "Digital Ocean"
+            }
+          },
+          {
+            "name": "Railway",
+            "badge": {
+              "url": "https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white",
+              "alt": "Railway"
+            }
+          },
+          {
+            "name": "Vercel",
+            "badge": {
+              "url": "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
+              "alt": "Vercel"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "icon": "🎨",
+        "technologies": [
+          {
+            "name": "SvelteKit",
+            "badge": {
+              "url": "https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white",
+              "alt": "Sveltekit"
+            }
+          },
+          {
+            "name": "Next.js",
+            "badge": {
+              "url": "https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white",
+              "alt": "NextJS"
+            }
+          },
+          {
+            "name": "Angular",
+            "badge": {
+              "url": "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white",
+              "alt": "Angular"
+            }
+          },
+          {
+            "name": "React",
+            "badge": {
+              "url": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+              "alt": "React"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "icon": "🖥️",
+        "technologies": [
+          {
+            "name": "PostgreSQL",
+            "badge": {
+              "url": "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white",
+              "alt": "PostgreSQL"
+            }
+          },
+          {
+            "name": "Node.js",
+            "badge": {
+              "url": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+              "alt": "NodeJS"
+            }
+          },
+          {
+            "name": "MySQL",
+            "badge": {
+              "url": "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white",
+              "alt": "MySQL"
+            }
+          },
+          {
+            "name": "Python",
+            "badge": {
+              "url": "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue",
+              "alt": "Python"
+            }
+          },
+          {
+            "name": "FastAPI",
+            "badge": {
+              "url": "https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white",
+              "alt": "FastAPI"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "featured": [
+      {
+        "title": "Analizador de Github con IA",
+        "description": "Como parte de mi participación en la Hackathon de Vercel 2024, organizada por midudev, desarrollé una aplicación web que proporciona un análisis detallado de los perfiles de GitHub, aprovechando las capacidades de la IA generativa utilizando Vercel AI SDK y Google Gemini 1.5 pro para ofrecer información valiosa y personalizada.",
+        "longDescription": "Esta hackathon me permitió profundizar en tecnologías como Next.js, Vercel, Google Cloud, y React.js, la aplicación esta desplegada en Vercel y aún recibe constantes mejoras.",
+        "url": "https://analizador-ia-github.vercel.app/",
+        "image": {
+          "path": "./assets/project-hackathon.gif",
+          "alt": "Hackathon project"
+        },
+        "technologies": ["Next.js", "Vercel", "Google Cloud", "React.js", "Vercel AI SDK", "Google Gemini"],
+        "status": "active"
+      },
+      {
+        "title": "UASLP: Agenda Escolar",
+        "description": "Este es un sistema de calendario y agenda para gestionar los eventos de la facultad de ingeniería de mi universidad, se realizó como parte de las materias de Proyectos Computacionales siguiendo un proceso de desarrollo SCRUM.",
+        "longDescription": "Actualmente ya se encuentra desplegado como un servicio oficial de la facultad y ya es de gran ayuda para la comunidad administrativa y estudiantil.",
+        "url": "https://servicios.ing.uaslp.mx/agenda-escolar/",
+        "image": {
+          "path": "./assets/agenda-escolar.gif",
+          "alt": "Agenda escolar"
+        },
+        "technologies": ["SCRUM"],
+        "status": "active"
+      },
+      {
+        "title": "SM Fotomark",
+        "description": "Página web para la empresa SMFotomark, hecha con NextJS y ChakraUI, para promocionar los productos y servicios de la empresa.",
+        "url": "https://smfotomark.vercel.app/",
+        "image": {
+          "path": "./assets/smfotomark.gif",
+          "alt": "SM Fotomark"
+        },
+        "technologies": ["Next.js", "ChakraUI"],
+        "status": "active"
+      },
+      {
+        "title": "App: TEA (Transtorno del Espectro Autista)",
+        "description": "En colaboración con algunos doctores especialistas en mi universidad trabajé en el diseño, desarrollo, e implementación de una aplicación móvil con base de datos para realizar un tamizaje a nivel nacional sobre el autismo en niños con edades entre 18 a 24 meses.",
+        "longDescription": "La aplicación ya se encuentra disponible en la PlayStore",
+        "url": "https://play.google.com/store/apps/details?id=com.slp.tea",
+        "technologies": ["Mobile Development", "Database"],
+        "status": "completed"
+      }
+    ]
+  },
+  "stats": {
+    "github": {
+      "username": "angelmaldonado",
+      "showStats": true,
+      "showStreaks": true,
+      "theme": "dark"
+    }
+  },
+  "integrations": {
+    "linkedin": {
+      "enabled": false,
+      "postOnUpdate": false
+    }
+  }
+}

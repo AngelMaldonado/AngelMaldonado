@@ -1,0 +1,18 @@
+## 🗂️ {{ "Proyectos Destacados" | monospace }}
+
+{% for project in profile.projects.featured %}
+### {{ project.title | monospace }}
+
+{% if project.image %}
+<a href="{{ project.url }}">
+    <img align="right" width="300" src="{{ project.image.path }}"/>
+</a>
+{% endif %}
+
+{{ project.description | monospace }}
+
+{% if project.longDescription %}
+{{ project.longDescription | monospace }}
+{% endif %}
+
+{% endfor %}

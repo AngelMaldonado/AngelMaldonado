@@ -1,0 +1,11 @@
+## 🪄 {{ "Tecnologías" | monospace }}
+
+{{ "Estas son algunas de las tecnologías, frameworks, y lenguajes con los que trabajo:" | monospace }}
+
+{% for category in profile.skills.categories %}
+### {{ category.icon }} {{ category.name | monospace }}
+
+{% for tech in category.technologies %}
+![{{ tech.name }}]({{ tech.badge.url }})
+{% endfor %}
+{% endfor %}

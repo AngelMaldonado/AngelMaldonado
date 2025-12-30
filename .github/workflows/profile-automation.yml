@@ -1,0 +1,93 @@
+name: Profile Automation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'profile.json'
+      - 'templates/**'
+      - 'scripts/**'
+      - '.github/workflows/profile-automation.yml'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write  # Required to commit generated files
+
+jobs:
+  validate:
+    name: Validate Profile Data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Validate profile.json
+        run: uv run main.py validate
+
+  generate-readme:
+    name: Generate README
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Generate README.md
+        run: uv run main.py generate-readme
+
+      - name: Upload README artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme
+          path: README.md
+          retention-days: 1
+
+  commit-changes:
+    name: Commit Generated Files
+    needs: generate-readme
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download README artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: readme
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in README.md"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in README.md"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: auto-update README from profile.json [skip ci]"
+          git push
+
+      - name: No changes to commit
+        if: steps.check_changes.outputs.changed == 'false'
+        run: echo "✅ README.md is already up to date"
